@@ -22,7 +22,7 @@ Please remember that every child is different. The percentile curves can help yo
 **Talk to a qualified health practitioner for your health-related questions, this app is for informational purpose only!**
 
 ## How are the curves generated?
-In short, from the weight point data, a smooth curve is constructed. The smoothness of this curve is chosen to balance two important but opposing needs: the curve should not be too "wiggly" and fit noise, but it should also be wiggly enough to not systematically miss data points. An established statistical method to tackle such problems is the _generalized additive model_ (GAM), and I used the `mgcv` package by Simon Wood in R to fit the curves [1]. Plotting was doen with `ggplot` and `shiny` was used to create the web app [2, 3].
+In short, from the weight point data, a smooth curve is constructed. The smoothness of this curve is chosen to balance two important but opposing needs: the curve should not be too "wiggly" and fit noise, but it should also be wiggly enough to not systematically miss data points. An established statistical method to tackle such problems is the _generalized additive model_ (GAM), and I used the `mgcv` package by Simon Wood in R to fit the curves [1]. Plotting was done with `ggplot` and `shiny` was used to create the web app [2, 3].
 
 ## References
 1. Wood, S. N. (2001). mgcv: GAMs and generalized ridge regression for R. _R news, 1_(2), 20-25. https://cran.r-project.org/web/packages/mgcv/index.html
