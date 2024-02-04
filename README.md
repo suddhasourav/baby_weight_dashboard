@@ -7,7 +7,8 @@ This is a web app to monitor the weight of a newborn/child, and works for childr
 ## Why I made this app
 There are several similar apps out there for plotting the weight of a baby, but I wanted an app that fulfills the following criteria:
 
-* Provides parents an easy way to document weight. More parents can use spreadsheets, so I stuck to an xlsx format
+* Respects the privacy of the child and parents, and saves no data online 
+* Provides parents an easy way to document weight. More parents can use spreadsheets like Excel, so I stuck to an xlsx format
 * Pretty yet accurate plotting
 * Responsive, dynamic design
 * The ability to automatically fit the display for newborns (0 - 13 weeks) vs. childrens 0-5 years of age based on the appropriate WHO norm data
