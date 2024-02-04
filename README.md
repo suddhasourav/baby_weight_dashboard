@@ -2,6 +2,8 @@
 ## General Description
 This is a web app to monitor the weight of a newborn/child, and works for children from birth up to 5 years of age. See it in action here: https://ssourav.shinyapps.io/baby_weight_dashboard/
 
+[![A screenshot of the web app, showing some of the salient feature and the plot of a baby's weight](/feature_description/feature_description.png)](https://ssourav.shinyapps.io/baby_weight_dashboard/)
+
 ## Why I made this app
 There are several similar apps out there for plotting the weight of a baby, but I wanted an app that fulfills the following criteria:
 
